@@ -5,9 +5,71 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 2em;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* 
+
+.Box{
+  width: 100px;
+  height: 100px;
+  border:2px solid black;
+  border-radius: 10%;
+} */
+
+.formParent{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formCenter{
+  width: 100%;
+  height: 100%;
+}
+.formCenter input{
+  padding: 6px;
+  width: 200px;
+  font-size: large;
+}
+
+.ListItems{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+  font-size: large;
+
+}
+
+.ListItem{
+  list-style-type: none;
+}
+
+
+table {
+  width: 100%;
+  margin: 50px 0px;
+  border-spacing: 15px;
+  color: #444;
+}
+
+tr {
+  margin-bottom: 20px;
+}
+
+th {
+  width: 250px;
+  text-align: left;
+  font-size: 20px;
+}
+
+td {
+  width: 250px;
+  font-size: 20px;
 }
